@@ -7,15 +7,6 @@
     <groupId>org.example</groupId>
     <artifactId>gladiolusCucumber</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <packaging>jar</packaging>
-
-    <properties>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <java.version>1.8</java.version>
-        <maven.compiler.version>3.6.0</maven.compiler.version>
-        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
-    </properties>
 
     <dependencies>
         <!-- https://mvnrepository.com/artifact/junit/junit -->
@@ -67,6 +58,7 @@
             <version>1.7.30</version>
             <scope>test</scope>
         </dependency>
+
     </dependencies>
 
     <build>
@@ -83,15 +75,6 @@
                 </configuration>
             </plugin>
 
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-compiler-plugin</artifactId>
-                <configuration>
-                    <source>1.8</source>
-                    <target>1.8</target>
-                </configuration>
-
-            </plugin>
         </plugins>
     </build>
 
